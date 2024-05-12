@@ -1,0 +1,1 @@
+docker buildx build --build-arg BASE_IMAGE_VERSION=$1 --platform linux/386,linux/arm/v7,linux/arm64/v8,linux/amd64 --push -t autotrof/webku:$1 .
